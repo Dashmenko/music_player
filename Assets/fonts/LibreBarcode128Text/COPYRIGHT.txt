@@ -1,0 +1,1 @@
+Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)

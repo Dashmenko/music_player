@@ -1,0 +1,614 @@
+@font-face {
+  font-family: "IstokWeb_Bold";
+  src: url(../fonts/Istok_Web/IstokWeb-Bold.ttf);
+}
+@font-face {
+  font-family: "IstokWeb_Regular";
+  src: url(../fonts/Istok_Web/IstokWeb-Regular.ttf);
+}
+@font-face {
+  font-family: "Kenia_Regular";
+  src: url(../fonts/Kenia/Kenia-Regular.ttf);
+}
+@font-face {
+  font-family: "Libre_Barcode128_Text";
+  src: url(../fonts/LibreBarcode128Text/LibreBarcode128Text-Regular.ttf);
+}
+@font-face {
+  font-family: "Karla";
+  src: url(../fonts/Karla/Karla.ttf);
+}
+@font-face {
+  font-family: "Montserrat_Medium";
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat_SemiBold";
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat_Regular";
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat_Bold";
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 265vw;
+  background-image: url(../img/background.png);
+  background-size: contain;
+  overflow: visible;
+}
+
+header .navigation {
+  display: flex;
+  justify-items: center;
+}
+header .navigation .logo {
+  font-family: "Libre_Barcode128_Text";
+  margin-top: 46px;
+  margin-left: 122px;
+  width: 53px;
+  height: 38px;
+  font-weight: 400;
+  line-height: 80px;
+  font-size: 80px;
+  color: #FFFFFF;
+}
+header .navigation .nav_href {
+  margin-top: 74px;
+  font-family: "IstokWeb_Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-left: 190px;
+  margin-right: -91px;
+  color: #FFFFFF;
+}
+header a {
+  text-decoration: none;
+}
+
+.dekstop_1 {
+  margin: 0px;
+}
+.dekstop_1 .form {
+  display: block;
+  margin-left: 115px;
+  margin-top: 32px;
+  width: 720px;
+  height: 890px;
+  float: left;
+}
+.dekstop_1 .form .name {
+  font-family: "Kenia_Regular";
+  font-style: normal;
+  width: 412px;
+  height: 264px;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+.dekstop_1 .form .company {
+  font-family: "IstokWeb_Regular";
+  font-style: normal;
+  width: 290px;
+  border: 63px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-left: 7px;
+  margin-top: 184px;
+  color: #FFFFFF;
+}
+.dekstop_1 .form .headphones {
+  position: absolute;
+  left: 192px;
+  top: 218px;
+}
+.dekstop_1 .phone {
+  display: grid;
+  text-align: center;
+}
+.dekstop_1 .phone .kabel {
+  margin-left: 77px;
+  margin-top: 762px;
+}
+.dekstop_1 .phone .screen {
+  position: absolute;
+  margin-left: 27px;
+  margin-top: 24px;
+}
+
+.dekstop_2 {
+  position: relative;
+  margin: 0px;
+  width: 100vw;
+  background-color: #D53005;
+  z-index: -2;
+}
+.dekstop_2 .music {
+  position: absolute;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin: 0px;
+  left: 121px;
+  top: 83px;
+}
+.dekstop_2 .song {
+  width: 1440px;
+}
+.dekstop_2 .song .buttons button {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  position: absolute;
+  width: 382px;
+  height: 83px;
+  left: 122px;
+  background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+  mix-blend-mode: normal;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5), -4px -4px 30px rgba(255, 255, 255, 0.1);
+}
+.dekstop_2 .song .buttons button:active {
+  border: 1px solid rgba(253, 3, 3, 0.5);
+}
+.dekstop_2 .song .buttons .button1 {
+  margin-top: 387px;
+}
+.dekstop_2 .song .buttons .button2 {
+  margin-top: 557px;
+}
+.dekstop_2 .song .cassette {
+  margin-top: 400px;
+  margin-left: 0px;
+}
+.dekstop_2 .song .album {
+  position: absolute;
+  z-index: -1;
+  left: 436px;
+  top: 179px;
+}
+
+.dekstop_3 {
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  height: 1023px;
+  background: no-repeat linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+}
+.dekstop_3 .about {
+  position: absolute;
+  width: 81px;
+  height: 35px;
+  left: 122px;
+  top: 50px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.dekstop_3 .text {
+  position: absolute;
+  width: 969px;
+  height: 72px;
+  left: 275px;
+  top: 443px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.dekstop_4 {
+  position: relative;
+  margin: 0px;
+  background-color: #D53005;
+  height: 1032px;
+}
+.dekstop_4 .store {
+  position: absolute;
+  margin: 0px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  left: 122px;
+  top: 81px;
+  color: #FFFFFF;
+}
+.dekstop_4 .form {
+  display: inline-block;
+  position: relative;
+  width: 450px;
+  height: 710px;
+}
+.dekstop_4 .form .buttons button {
+  font-family: "Montserrat_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  left: 110px;
+  margin-top: 252px;
+  display: block;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+.dekstop_4 .form .buttons .button1 {
+  background: rgba(2, 2, 2, 0.9);
+  color: #FFFFFF;
+}
+.dekstop_4 .form .buttons .button2 {
+  background: #E3E3E3;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  color: #000000;
+  margin-top: 359px;
+}
+.dekstop_4 .form .information {
+  width: 450px;
+  margin-left: 9px;
+  margin-top: 535px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.dekstop_4 .form .information .question {
+  width: 450px;
+  height: 21px;
+  font-family: "Montserrat_Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  margin-left: 15px;
+  word-spacing: -2px;
+}
+.dekstop_4 .form .information .download {
+  font-family: "Montserrat_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 23px;
+}
+.dekstop_4 .form .information .choose {
+  font-family: "Montserrat_Medium";
+  text-decoration: underline;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.dekstop_4 .Mac {
+  position: absolute;
+  float: right;
+  width: 1104px;
+  height: 750px;
+  top: 168px;
+  left: 336px;
+}
+.dekstop_4 .Mac .device {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.dekstop_4 .Mac .left_column .player {
+  position: absolute;
+  font-family: "Montserrat_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  width: 56.79px;
+  line-height: 18px;
+  left: 167.9px;
+  top: 35.84px;
+  color: #C1C4CB;
+}
+.dekstop_4 .Mac .left_column .search {
+  position: absolute;
+  width: 81.93px;
+  height: 13.23px;
+  left: 153.99px;
+  top: 113.27px;
+  justify-items: center;
+  background: rgba(217, 217, 217, 0.2);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), -4px -4px 14px rgba(255, 255, 255, 0.08);
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
+.dekstop_4 .Mac .left_column .text_search {
+  font-family: "Montserrat_Medium";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 11px;
+  color: #000000;
+}
+.dekstop_4 .Mac .left_column .but button {
+  font-family: "Montserrat_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: absolute;
+  width: 86.93px;
+  height: 16.23px;
+  left: 153.99px;
+  top: 155.31px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), -4px -4px 14px rgba(255, 255, 255, 0.08);
+  border-radius: 30px;
+}
+.dekstop_4 .Mac .left_column .but .but1 {
+  background: rgba(255, 0, 0, 0.2);
+}
+.dekstop_4 .Mac .left_column .but .but2 {
+  background: rgba(5, 255, 0, 0.2);
+  margin-top: 28px;
+}
+.dekstop_4 .Mac .left_column .but .but3 {
+  background: rgba(5, 0, 255, 0.2);
+  margin-top: 56px;
+}
+.dekstop_4 .Mac .left_column .but .but4 {
+  background: rgba(255, 230, 0, 0.2);
+  margin-top: 84px;
+}
+.dekstop_4 .Mac .store_but {
+  position: absolute;
+  width: 86.93px;
+  height: 16.23px;
+  left: 153.99px;
+  top: 309.31px;
+  font-family: "Montserrat_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: rgba(255, 0, 199, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), -4px -4px 14px rgba(255, 255, 255, 0.08);
+  border-radius: 30px;
+}
+.dekstop_4 .Mac .photo {
+  position: absolute;
+  top: 20px;
+  left: 265px;
+}
+.dekstop_4 .Mac .heading {
+  position: absolute;
+  height: 13.91px;
+  top: 46.8px;
+  left: 531.69px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+}
+.dekstop_4 .Mac .heading .your_music {
+  font-family: "Montserrat_Bold";
+  width: 67.23px;
+  color: #E7E7E7;
+  margin: 0px;
+  float: left;
+}
+.dekstop_4 .Mac .heading .Artist {
+  font-family: "Montserrat_Regular";
+  width: 61.45px;
+  margin-top: 0px;
+  margin-left: 10.25px;
+  color: rgba(231, 231, 231, 0.7);
+  float: left;
+}
+.dekstop_4 .Mac .rectangle2 {
+  position: absolute;
+  top: 133.29px;
+  left: 529px;
+  display: flex;
+}
+.dekstop_4 .Mac .rectangle2 .rectangle {
+  width: 67.38px;
+  height: 18.54px;
+  text-align: center;
+  font-family: "Montserrat_Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.dekstop_4 .Mac .rectangle2 .text1 {
+  background: rgba(14, 0, 176, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 18px rgba(255, 253, 253, 0.03);
+}
+.dekstop_4 .Mac .rectangle2 .text2 {
+  left: 932.3px;
+  background: rgba(2, 255, 73, 0.5);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.2), -4px -4px 14px rgba(255, 255, 255, 0.03);
+}
+.dekstop_4 .Mac .block {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+.dekstop_4 .Mac .row {
+  position: absolute;
+  width: 450px;
+  height: 150px;
+  top: 185px;
+  left: 312px;
+  text-align: center;
+}
+.dekstop_4 .Mac .bloro {
+  top: 349px;
+  left: 312px;
+}
+.dekstop_4 .Mac .sname {
+  text-decoration: none;
+  margin-right: 32px;
+  color: #FFFFFF;
+}
+.dekstop_4 .Mac .data .author {
+  font-family: "Montserrat_Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: left;
+  margin: 0px;
+  margin-left: 2px;
+  color: #FFFFFF;
+}
+.dekstop_4 .Mac .data .song {
+  font-family: "Montserrat_Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: left;
+  margin: 0px;
+  margin-left: 2px;
+  margin-top: 2px;
+  color: #FFFFFF;
+}
+.dekstop_4 .Mac .panel {
+  position: absolute;
+  width: 23.18px;
+  height: 43.18px;
+  left: 323px;
+  top: 587px;
+}
+.dekstop_4 .Mac .panel .Internet_Antenna {
+  position: absolute;
+  height: 23.18px;
+  left: 41.51px;
+  top: 0px;
+}
+.dekstop_4 .Mac .panel .Adjust {
+  position: absolute;
+  height: 23.18px;
+  top: 0px;
+  left: 82.51px;
+}
+
+footer {
+  position: absolute;
+  background: no-repeat linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+  width: 100vw;
+}
+footer .mp {
+  width: 138px;
+  height: 100px;
+  font-family: "Kenia_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 94px;
+  margin-left: 110px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+footer a {
+  text-decoration: none;
+  font-family: "Montserrat_Medium";
+  color: #FFFFFF;
+}
+footer .niz {
+  font-family: "Montserrat_Medium";
+  font-style: normal;
+  width: 1222px;
+  height: 18px;
+  margin-top: 0px;
+  margin-left: 106px;
+  margin-right: 0px;
+  color: #FFFFFF;
+}
+footer .niz a {
+  font-weight: 500;
+}
+footer .niz .rights {
+  display: inline;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 0px;
+}
+footer .niz .ssulki {
+  display: inline;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+footer .niz .ssulki a {
+  margin-left: 99px;
+}
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  width: 926px;
+  height: 148px;
+  margin-left: 452px;
+  margin-top: 90px;
+  line-height: 40px;
+}
+footer .links .mplayer {
+  width: 180px;
+  height: 148px;
+}
+footer .links .price {
+  width: 196px;
+  height: 148px;
+}
+footer .links .personal {
+  width: 256px;
+  height: 108px;
+}
+footer .links .fat {
+  font-family: "Montserrat_SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 13px;
+  color: #FFFFFF;
+}
+footer .links .ne_fat {
+  font-family: "Montserrat_Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
